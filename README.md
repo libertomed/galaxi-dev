@@ -7,8 +7,12 @@ checksums are on the [Releases](https://github.com/libertomed/galaxi-dev/release
 
 ```bash
 brew tap libertomed/galaxi-dev https://github.com/libertomed/galaxi-dev
+brew trust libertomed/galaxi-dev
 brew install --cask galaxi
 ```
+
+`brew trust` is required by Homebrew 7 and later before it loads casks from a
+third-party tap; on older versions skip that line.
 
 Update to a new release:
 
