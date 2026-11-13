@@ -1,9 +1,9 @@
 cask "galaxi" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.2"
-  sha256 arm:   "bcc45ee00e60ce79558c6f983631ae166746422556c83b1a80bcb8c74c18dc47",
-         intel: "30066b41a683a12d910c1eeb93a3cfd487a9bd010be44ed59d140896205005fe"
+  version "0.1.3"
+  sha256 arm:   "59d9f68594a13e78a4caee64e514cbf25e1bee9bf65e1d1a54721fe627487276",
+         intel: "8c705e04c8702acbc6be76256698baf0ffb29c57b190058a559a55007cbf6e54"
 
   url "https://github.com/libertomed/galaxi-dev/releases/download/v#{version}/GalAxI-#{version}-#{arch}.zip"
   name "GalAxI"
